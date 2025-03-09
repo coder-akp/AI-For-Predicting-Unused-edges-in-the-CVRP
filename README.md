@@ -36,16 +36,22 @@ A machine learning approach to identify unused edges in Capacitated Vehicle Rout
 ## Project Structure
 
 ```
-AI-For-Predicting-Unused-edges-in-the-CVRP/
+AI-For-Predicting-Unused-Edges-in-the-CVRP/
 │
-├── Dataset/
-│   ├── Instances/        # CVRP problem instances (.vrp)
-│   └── Solutions/        # Optimal solution files (.sol)
+├── Dataset/  
+│   ├── Instances/            # VRP problem instance files (.vrp)  
+│   │   ├── instance1.vrp  
+│   │   ├── instance2.vrp  
+│   │   └── ...  
+│   ├── Solutions/            # Optimal solutions for instances (.sol)  
+│   │   ├── solution1.sol  
+│   │   ├── solution2.sol  
+│   │   └── ...  
 │
-├── CVRP_jupyter_notebook.ipynb  # Main analysis notebook
-├── .gitignore
+├── CVRP_jupyter_notebook.ipynb   # Jupyter Notebook for model training and analysis  
+├── .gitignore                    # Files to ignore in version control  
 ├── LICENSE
-└── README.md
+├── README.md                      
 ```
 
 ## Dependencies
